@@ -66,7 +66,6 @@ func max_slice(id_list []int) int {
 
 func find_my_seat(id_list []int) int {
 	sort.Ints(id_list)
-	fmt.Println(id_list)
 
 	for i:=0; i<len(id_list); i++ {
 		if id_list[i] + 1 != id_list[i+1] {
